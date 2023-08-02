@@ -17,7 +17,7 @@ function longestSubarray(nums: number[]): number {
     }
 
     if(hasZero){
-      return maxCount > 0 ? maxCount : 0;
+      return maxCount
     }
     else{
        return maxCount > 0 ? maxCount-1 : 0;
